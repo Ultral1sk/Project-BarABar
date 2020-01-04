@@ -4,6 +4,7 @@ import './App.scss'
 
 import Header from './components/header_footer/Header'
 import Featured from './components/featured/index'
+import VenueInfo from './components/venueInfo/VenueInfo'
 
 export class App extends Component {
   render() {
@@ -12,6 +13,7 @@ export class App extends Component {
    
         <Header />
         <Featured />
+        <VenueInfo />
       </div>
     )
   }
