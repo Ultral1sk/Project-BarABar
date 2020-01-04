@@ -4,7 +4,8 @@ import Toolbar    from '@material-ui/core/Toolbar'
 import MenuIcon   from '@material-ui/icons/Menu'
 import IconButton from '@material-ui/core/IconButton'
 import SideDrawer from './SideDrawer'
-import { NONAME } from 'dns'
+import styled     from 'styled-components'
+
 
 
 export class Header extends Component {
@@ -13,14 +14,10 @@ export class Header extends Component {
 
         this.state = {
             drawerOpen : false,
-            headerShow : false
+          
         }
 }
-    componentDidMount(){
-        window.addEventListener('scroll', this.handleScroll);
-    }
-
-
+    
     toggleDrawer = (value) => {
         this.setState({
             drawerOpen : value
@@ -29,9 +26,12 @@ export class Header extends Component {
 
 
     render() {
+        console.log(`click from parrent component`);
+        
         return (
             <div>
                 <AppBar style={{
+                    
                     background: 'transparent',
                     boxShadow: 'none'
                 }}>
@@ -42,6 +42,7 @@ export class Header extends Component {
                             </div>
 
                             <IconButton
+                         
                                 aria-label="Menu"
                                 color="inherit"
                                 onClick={() => this.toggleDrawer(true)}
@@ -52,10 +53,9 @@ export class Header extends Component {
                             <SideDrawer 
                                 open={this.state.drawerOpen}
                                 onClose={(value) => this.toggleDrawer(value)}
-                            />
-                        </Toolbar>
-
-                      
+                            />                   
+                            
+                        </Toolbar>                      
                 </AppBar>
             </div>
         )

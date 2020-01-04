@@ -5,6 +5,7 @@ import slide_two from '../../resources/images/slide_two.jpg'
 import slide_three from '../../resources/images/slide_three.jpg'
 
 const Carousel = () => {
+    
 
     const settings = {
         dots: false,
