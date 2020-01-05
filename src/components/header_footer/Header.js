@@ -4,7 +4,8 @@ import Toolbar    from '@material-ui/core/Toolbar'
 import MenuIcon   from '@material-ui/icons/Menu'
 import IconButton from '@material-ui/core/IconButton'
 import SideDrawer from './SideDrawer'
-import styled     from 'styled-components'
+import barabarLogo from '../../resources/images/logos/original.png'
+import { Link } from 'react-router-dom'
 
 
 
@@ -37,8 +38,10 @@ export class Header extends Component {
                 }}>
                         <Toolbar>
                             <div className="header_logo">
-                                <div className="font_righteaouse header_logo_venue">BarABar</div>
-                                <div className="header_logo_title">Musical Events</div>
+                                <div className="font_righteaouse header_logo_venue"></div>
+                                <Link to='/' className="header_logo_title">
+                                    <img src={barabarLogo} alt="logo" height="100px"/>
+                                </Link>
                             </div>
 
                             <IconButton

@@ -25,22 +25,31 @@ header .header_logo_title {
 
 .artist_name {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     width: 400px;
     height: 160px;
     -webkit-transform: translate(-50%, -50%);  
     transform: translate(-50%, -50%);   
-    border: 2px solid white;
+    color: #fff;
+    text-align: center;
+
+    .title_name {
+        font-size: 5.5vw;
+    }
+
+    .title_connector {
+        font-size: 3vw;
+        color: red;
+    }
+
+    .establish {
+        font-size: 1vw;
+      
+    }
+
+    .idea {
+        font-size: 2vw;
+    }
 }
 
-.artist_name .wrapper {
-    border: 2px solid white;
-    height: 121px;
-    margin: 6px;
-    text-align: center;
-    color: #fff;
-    font-size: 40px;
-    padding: 21px 70px 0px 70px;
-    text-transform: uppercase;
-}

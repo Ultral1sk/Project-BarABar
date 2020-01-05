@@ -6,7 +6,7 @@ const Highlights = () => {
     return (
         <div className="highlight_wrapper">
             <Description />
-            <Discount />
+            {/* <Discount /> */}
         </div>
     )
 }

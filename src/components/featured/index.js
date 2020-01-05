@@ -4,17 +4,31 @@ import Countdown from './Countdown'
 
 const Featured = () => {
     return (
-        <div  style={{position: 'relative'}}>
+        <div style={{ position: 'relative' }}>
 
-           <Carousel />    
+            <Carousel />
 
             <div className="artist_name">
+                <span>Snack Bar</span>
                 <div className="wrapper">
-                    Ariana Grande
+                    <div>
+                        <span className="title_name">BAR</span>
+                    </div>
+                    <div>
+                        <span className="title_connector">a</span>
+                    </div>
+                    <div>
+                        <span className="title_name">BAR</span>
+                    </div>
+                    <div>
+                        <span className="idea">An idea of 2 friends</span>
+                    </div>
+                    <span className="establish">Established 2005</span>
+                   
                 </div>
-            </div>    
+            </div>
 
-            <Countdown />
+            {/* <Countdown /> */}
         </div>
     )
 }

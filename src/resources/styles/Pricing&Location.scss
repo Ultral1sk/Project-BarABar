@@ -65,22 +65,27 @@
         LOCATION    
 ======================*/
 
-.location_wrapper {
-    position:relative;
+.iframe_wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
 }
 
-.location_tag {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-}
-.location_tag div{
-    background: #2c2c2c;
-    color: #ffffff;
-    text-transform: uppercase;
-    width: 220px;
-    margin: 0 auto;
-    font-size: 29px;
-    padding: 15px 20px;
+
+
+
+.socialmedia_wrapper {
+    displaY: flex;
+    justify-content: center;
     text-align: center;
+    color: white;
+
+    .socialmedia_header {
+        background: url('https://www.hardrockcafe.com/files/templates/1732/footerBg.jpg');
+        padding: 0.6rem 0;
+    
+        width: 87%;
+    
+}
+
 }

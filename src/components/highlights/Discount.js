@@ -49,14 +49,6 @@ class Discount extends Component {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             </p>
 
-                            <div>
-                               <MyButton 
-                                   text="Purchase tickets"
-                                   bck="#ffa800"
-                                   color="#ffffff"
-                                   link="http://hltv.org"
-                               />
-                            </div>
                     </div>
                     </Slide>
                 

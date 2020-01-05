@@ -11,5 +11,6 @@
 
 .carrousel_image {
     
-    background-size: cover !important;
+    background-size: contain !important;
+    background-position: center no-repeat;
 }
