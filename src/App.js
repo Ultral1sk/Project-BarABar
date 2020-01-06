@@ -18,7 +18,7 @@ export class App extends Component {
         <Header />
         <Featured />
         <Hightlights />
-        <VenueInfo />
+        {/* <VenueInfo /> */}
         <Pricing />
         <Location />
         <Footer />

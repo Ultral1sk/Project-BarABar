@@ -1,6 +1,6 @@
 import React from 'react'
 import Slider from "react-slick";
-import slide_one from '../../resources/images/kafic2.jpg'
+import slide_one from '../../resources/images/kafic.jpg'
 
 const Carousel = () => {
     

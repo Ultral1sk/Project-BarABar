@@ -5,86 +5,93 @@
 ======================*/
 
 .pricing_section {
-    padding: 70px 0px;
+    padding         : 70px 0px;
 }
 
 
 .pricing_section h2 {
-    color: #ffffff;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 50px;
-    margin: 0;
+    color           : #000000;
+    text-transform  : uppercase;
+    text-align      : center;
+    font-size       : 50px;
+    margin          : 0;
 }
 
 .pricing_wrapper {
-    display: flex;
-    flex-wrap: wrap;
+    display         : flex;
+    flex-wrap       : wrap;
 }
 .pricing_wrapper .pricing_item{
-    flex-grow: 1;
-    width: 33%;
-    padding: 20px;
-    box-sizing: border-box;
+
+    flex-grow       : 1;
+    width           : 33%;
+    padding         : 20px;
+    box-sizing      : border-box;
 }
 
 .pricing_wrapper .pricing_inner_wrapper {
-    border:2px solid #ffa800;
-    padding: 50px 20px;
+ 
+    border          : 2px solid rgb(255, 196, 0);
+    padding         : 50px 20px;
 }
 
 .pricing_inner_wrapper .pricing_title {
-    color: #ffffff;
-    text-align: center;
-    border-bottom: 1px solid #ffa800;
-    padding-bottom: 20px;
+    color           : #000000;
+    text-align      : center;
+    border-bottom   : 1px solid rgb(255, 196, 0);
+    padding-bottom  : 20px;
 }
 .pricing_inner_wrapper .pricing_title span:nth-child(1) {
-    font-size: 50px;
-    display: block;
+    font-size       : 50px;
+    display         : block;
 }
 .pricing_inner_wrapper .pricing_title span:nth-child(2) {
-    text-transform: uppercase;
-    font-size: 28px;
-    font-weight: 300;
+    text-transform  : uppercase;
+    font-size       : 28px;
+    font-weight     : 300;
 }
 .pricing_inner_wrapper .pricing_description {
-    color: #b8b8b8;
-    font-weight: 300;
-    font-size: 14px;
-    text-align: center;
-    padding: 20px 0px;
-    min-height: 70px;
+    color           : #000000;
+    font-weight     : 300;
+    font-size       : 14px;
+    text-align      : center;
+    padding         : 20px 0px;
+    min-height      : 70px;
 }
 
 .pricing_inner_wrapper .pricing_buttons {
-     text-align: center;
+     text-align     : center;
 }
 
 /*====================
         LOCATION    
 ======================*/
 
+.socialmedia_mainWrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .iframe_wrapper {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 2rem;
+    display         : flex;
+    justify-content : space-around;
+    flex-wrap       : wrap;
+    margin          : 2rem 0px;
 }
 
 
 
 
 .socialmedia_wrapper {
-    displaY: flex;
-    justify-content: center;
-    text-align: center;
-    color: white;
+    
+    color           : white;
 
     .socialmedia_header {
-        background: url('https://www.hardrockcafe.com/files/templates/1732/footerBg.jpg');
-        padding: 0.6rem 0;
-    
-        width: 87%;
+        text-align  : center;
+        background  : url('https://www.hardrockcafe.com/files/templates/1732/footerBg.jpg');
+        padding     : 0.6rem ;
+        margin      : 0 auto;
+        width       : 92%;
     
 }
 

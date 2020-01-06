@@ -9,17 +9,13 @@ const Featured = () => {
             <Carousel />
 
             <div className="artist_name">
-                <span>Snack Bar</span>
+                <span className="bar_type">Snack Bar</span>
                 <div className="wrapper">
                     <div>
-                        <span className="title_name">BAR</span>
+                        <span className="title_name">barAbar</span>
                     </div>
-                    <div>
-                        <span className="title_connector">a</span>
-                    </div>
-                    <div>
-                        <span className="title_name">BAR</span>
-                    </div>
+                 
+                 
                     <div>
                         <span className="idea">An idea of 2 friends</span>
                     </div>

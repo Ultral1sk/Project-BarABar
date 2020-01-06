@@ -4,12 +4,27 @@
 
 footer {
     padding:50px 0px;
-    text-align: center;
-    font-size: 60px;
-    color:#ffffff;
-    background: red;
+    font-size: 30px;
+    color:#f8be00;
+    background: url('https://www.hardrockcafe.com/files/templates/1732/footerBg.jpg');
+    margin-bottom: 2rem;
+    .footer_logo_venue {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .footerLogo_logo {
+        padding-top: 3rem;
+        width: 40%;
+    }
 }
 
+
+
 footer .footer_copyright {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     font-size: 18px;
+    text-align: center;
 }

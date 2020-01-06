@@ -3,6 +3,9 @@
         HIGHLIGHTS
 ======================*/
 
+.center_wrapper {
+    width: 80%;
+}
 
 .highlight_wrapper h2 {
     text-align: center;
@@ -27,21 +30,6 @@
 
 .discount_wrapper .discount_porcentage {
     padding-right: 100px;
-}
-
-.discount_wrapper .discount_porcentage span:nth-child(1) {
-    color: #ff4800;
-    font-size: 125px;
-    font-weight: 400;
-    display: block;
-    line-height: 120px;
-}
-
-.discount_wrapper .discount_porcentage span:nth-child(2) {
-    color: #2c2c2c;
-    font-size: 50px;
-    font-weight: 400;
-    display: block;
 }
 
 

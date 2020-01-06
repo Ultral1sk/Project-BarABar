@@ -7,8 +7,8 @@ class Pricing extends Component {
         super(props)
 
         this.state = {
-            prices: [100, 150, 250],
-            positions: ['Balcony', 'Medium', 'Star'],
+            entertainment: [`Food`, `Bands & DJ's`, 'Cocktails'],
+            type: ['Snacks', 'Live Music', 'Drinks'],
 
             description: [
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et',
@@ -26,14 +26,14 @@ class Pricing extends Component {
     // this function is the same as normal function with a retrun (<div></div>)
     showBoxes = () => (
 
-        this.state.prices.map((box, i) => (
+        this.state.entertainment.map((box, i) => (
 
             <Zoom delay={this.state.delay[i]} key={i}>
                 <div className="pricing_item">
                     <div className="pricing_inner_wrapper">
                         <div className="pricing_title">
-                            <span>${this.state.prices[i]}</span>
-                            <span>${this.state.positions[i]}</span>
+                            <span>{this.state.type[i]}</span>
+                            <span>{this.state.entertainment[i]}</span>
                         </div>
                         <div className="pricing_description">
                             <span>{this.state.description[i]}</span>
@@ -41,7 +41,7 @@ class Pricing extends Component {
 
                         <div className="pricing_buttons">
                             <MyButton
-                                text="Purchase"
+                                text="More"
                                 bck="#ffa800"
                                 color="#ffffff"
                                 link={this.state.linkTo[i]}
@@ -59,15 +59,20 @@ class Pricing extends Component {
 
 
         return (
-            <div className="bck_black">
-                <div className="center_wrapper pricing_section">
-                    <h2>Pricing</h2>
 
+            <div className="center_wrapper pricing_section">
+                <div>
+                    <h2>Live Entertainment</h2>
+                </div>
+
+         
                     <div className="pricing_wrapper">
                         {this.showBoxes()}
                     </div>
-                </div>
+         
+
             </div>
+
         )
     }
 }

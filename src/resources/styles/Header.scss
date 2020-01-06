@@ -25,17 +25,22 @@ header .header_logo_title {
 
 .artist_name {
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 50%;
     width: 400px;
     height: 160px;
     -webkit-transform: translate(-50%, -50%);  
     transform: translate(-50%, -50%);   
-    color: #fff;
+    color: rgb(255, 196, 0);
     text-align: center;
 
+    .bar_type {
+        font-size: 1.5vw;
+    }
+
     .title_name {
-        font-size: 5.5vw;
+        font-size: 6vw;
+        text-shadow: 6px 2px 0px rgba(0,0,0,0.2);
     }
 
     .title_connector {
@@ -44,8 +49,8 @@ header .header_logo_title {
     }
 
     .establish {
-        font-size: 1vw;
-      
+        font-size: 1.5vw;
+        color: rgb(0, 97, 73);
     }
 
     .idea {
